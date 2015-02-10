@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.fullbutton {
+	padding:0px;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+
+h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+.jumbotron {
+	background-image:url(../img/jumbotron.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+footer {
+	padding-top:10px;
+	min-height:60px;
+	margin-top:10px;
+	color:rgba(151,151,151,1.00);
+	text-align:center;
+	font-size:x-small;
+	border-top:dotted 3px rgba(150,150,150,1.00);
+}
+
+/*mixer*/
+
+#mixer {
+	text-align:center;
+	background: #f3f3f3;
+	padding: 15px;
+	border: 1px solid lightgrey;
+	margin-top: 20px;
+}
+#mixer .mix{
+	display: none;
+}
+.mix {
+	padding: 30px;
+	width: 200px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 6px;
+	color: white;
+	margin-bottom: 10px;
+}
+

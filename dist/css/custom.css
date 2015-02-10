@@ -1,0 +1,340 @@
+/*overall*/
+body {
+font-family: 'Roboto Condensed', sans-serif;
+letter-spacing: 0.03em;
+font-size: 1.2em;
+}
+
+/*mixer*/
+
+#mixer {
+  text-align:center;
+  background: transparent;
+  padding: 10px;
+}
+
+#mixer .mix{
+  display: none;
+}
+/*.mix {
+  padding: none;
+  width: none;
+  background: none;
+  border-radius: none;
+  border-color: none;
+  margin-bottom: none;
+}*/
+
+/*button captions*/
+h3 {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size:1.1em;
+  color: #00cccc; /*#66cccc */
+  letter-spacing: 0.05em;
+}
+  
+
+h4 {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size:0.9em;
+  color: grey; /*#66cccc */
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #00cccc;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  line-height: 1.2em;
+}
+
+h6 {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size:0.8em;
+  color: grey; /*#66cccc */
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.review-hearts {
+  color: #ffcccc; /*#33D2B2*/
+  opacity: 0.75;
+}
+
+.review-hearts-modal {
+  color: #ffcccc; /*#33D2B2*/
+  opacity: 0.75;
+  margin-top: 2px;
+  font-size: 1.2em;
+}
+
+.review-heading-modal {
+  color: #cb99c5; /*#33D2B2*/
+  margin-top: 2px;
+  font-size: 1.2em;
+  letter-spacing: 0.06em;
+  text-transform: none
+
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+h5 {
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+h6 {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+
+/*side mixer filter heading*/
+.filter-heading {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #99cccc;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+}
+
+.filter-heading-xs:hover {
+  color: #99cccc;
+  
+}
+
+.filter-options {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: white;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: #62c8d1;
+}
+
+/*side mixer bar from bootstrap.css*/
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #66cccc;
+}
+a.list-group-item:hover, a.list-group-item:focus {
+  background-color: #66cccc;
+  color: white;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #66cccc;
+  /*border-color: #428bca;*/
+}
+
+a.list-group-item {
+  color: #555555;
+}
+
+/*modal background layer*/
+.modal-backdrop {
+  background: rgba(133,207,202,.7);
+}
+
+/*modal button close top right*/
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #62c8d1;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.5;
+}
+
+.close:hover,
+.close:focus {
+  color: #62c8d1;
+  cursor: pointer;
+  opacity:1;
+}
+
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+/*modal dialog - center dialog and image*/
+.modal-dialog {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*modal caption*/
+.caption {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 1.3em;
+}
+
+.modal-content .modal-body {
+  padding-left: 90px;
+  padding-right: 90px;
+  text-align: left;
+}
+
+/*modal body*/
+.modal-body {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size:1.2em;
+  letter-spacing: 0.03em;
+  color: #333;
+}
+
+/*mint buttons*/
+.btn:hover:not(.btn-link):not(.btn-flat) {
+box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23), 0 10px 30px rgba(0, 0, 0, 0.19);
+}
+.btn-primary:not(.btn-link):not(.btn-flat) {
+background-color: #66cccc;
+}
+
+/*navbar branding*/
+.navbar-material-mint {
+  background-color: #66cccc;
+  opacity:1;
+  -webkit-transition:all .3s ease-out;transition:all .3s ease-out;
+}
+
+.navbar .navbar-toggle {
+  border-color: #fff;
+  background-color: transparent;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #a8dde8;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: rgba(255, 255, 255, 0.84);
+}
+.navbar .navbar-default .navbar-toggle,
+.navbar .navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(255, 255, 255, 0.84);
+}
+
+/*navbar bootstrap*/
+
+.navbar-toggle {
+position: relative;
+float: left;
+padding: 10px 10px;
+margin-top: 8px;
+margin-left: 15px;
+margin-bottom: 8px;
+background-color: transparent;
+/* border: 1px solid transparent; */
+border-radius: 4px;
+}
+
+.navbar-brand {
+position: relative;
+margin: 0 auto 0 auto;
+background-color: transparent;
+/* border: 1px solid transparent; */
+border-radius: 4px;
+}
+
+a.navbar-brand:hover, a.navbar-brand:focus {
+  opacity: 0.5;
+  -webkit-transition:opacity .3s ease-in-out,top .3s ease-in-out;transition:opacity .3s ease-in-out,top .3s ease-in-out
+}
+
+/*social media share buttons*/
+.share-buttons{
+  list-style: none;
+  margin-top:10px;
+}
+
+.share-buttons li{
+  display: inline;
+}
+
+a {
+  color: #99cccc;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #66cccc;
+  opacity: 0.7;
+  -webkit-transition:opacity .2s ease-in-out,top .2s ease-in-out;transition:opacity .2s ease-in-out,top .2s ease-in-out
+}
+
+.white {
+  color: white;
+}
+
+.mint {
+  color: #66cccc;
+}
+
+.content-words {
+  padding:50px;
+}
+
+.size-xs {
+  font-size: 12pt;
+  font-weight: 300;
+  margin-top:6px;
+}
+
+.size-md {
+  font-size: 16pt;
+}
+
+.size-lg {
+  font-weight:400;
+}
+
+.butnz-xs {
+  font-size: 8.35pt;
+}
+
+
+
